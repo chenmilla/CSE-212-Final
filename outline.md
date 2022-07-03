@@ -2,22 +2,28 @@
 ## I. Welcome
 * Introduction
 * Contact Information
-## II. Conditionals
+## II. Stack
 * Introduction
-* Boolean Expressions
-* Multiple Conditions
+* Characteristics of stack
+* Push
+* Pop
 * Example
 * Problem to Solve
-## III. Loops
+## III. Sets
 * Introduction
-* For Loops (Iterators)
-* Using Range with For Loops
-* While Loops
+* Characteristics of sets
+* Hashing
+* How to create a Python set
+* How to add elements to a Python set
+* How to remove elemest from a Python set
 * Example
 * Problem to Solve
-## IV. Functions
+## IV. Tree
 * Introduction
-* Structure of a Python Function
-* Organizing Functions
+* Binary Trees
+* Binary Search
+* Balanced Binary Search Trees
+* Inserting into a BST
+* Traversing a BST
 * Example
 * Problem to Solve
