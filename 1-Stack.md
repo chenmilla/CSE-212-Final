@@ -1,10 +1,9 @@
 # Stack
 
 ## Introduction
-Since there are many ways to implement solutions for today's coding problems, there are some solutions that are better than others. That is when Big-O notation enters in actoin. We need to understand it first to know which data structure to implement. 
-![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Big-O_Cheatsheet.png)
+Have you been in the supermarket doing your groceries and decided to buy bread to make the most famous college meal. I am not talking about Maruchan Ramen Noodles Soup. I am talking about the peanut butter sandwich. However, someone has put the bread on the shelves for you. You grab the one that is in front of you.  
 
-Big-O notation ilustrates how complex or how fast a function will run in Python. For example in the above picture, O(1) is the fastes one since only takes one step to get the result. Howerver, O(n!) is the less efficient of all of the operations because take more steps to get the result. In other words, we should try to work closer to the "x-axis" to have a better performance for our code. With this in mind, we can go ahead and learn about Stacks.  
+  
 
 ## Characteristics of Stacks
 ![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Stack-sv.svg.png)
