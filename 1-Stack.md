@@ -54,7 +54,7 @@ if name == "Haaland" or "haaland":
 
 ```
 The following code will give the following result:
-```python
+```
 Year                  Team            League Appearances    Goals
 2022–           Manchester City               0               0
 2020–2022       Borussia Dortmund            67              62
