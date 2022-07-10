@@ -53,7 +53,17 @@ if name == "Haaland" or "haaland":
 
 
 ```
-
+The following code will give the following result:
+```python
+Year                  Team            League Appearances    Goals
+2022–           Manchester City               0               0
+2020–2022       Borussia Dortmund            67              62
+2019–2020       Red Bull Salzburg            16              17
+2017–2019       Molde                        39              14
+2017            Molde 2                       4               2
+2016–2017       Bryne                        16               0
+2015–2016       Bryne 2                      14              18
+```
 
 
 ## Problem to Solve
