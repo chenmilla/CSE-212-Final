@@ -73,4 +73,7 @@ Your code should include the following:
 * Create two empty stacks, one for Samsung Galaxy and the other one for iPhone.
 * Push each model to its corresponding stack. Your top smartphone should be the most recent model. 
 * Give your Grand Father the option to choose between the two, then display the result.
+
+You can check your code with the solution here:
  
+[Back to Welcome Page](0-welcome.md)
