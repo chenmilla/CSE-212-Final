@@ -27,8 +27,30 @@ In Python, a list can be used to implement a stack. To **push** an iteam to the 
 ## Example
 Let's say you are a huge fan of soccer, which I am, and you just read a notification on your phone saying that your favorite team has signed a new player. However, you don't know anything about this player and you would like to know the history of this player, where he has played, stats, etc, we can implement Stacks to do this easily.
 
-``` 
-erling_haaland = ["2022–	Manchester City	0	(0)", "2020–2022	Borussia Dortmund	67	(62)", "2019–2020	Red Bull Salzburg	16	(17)", "2017–2019	Molde	39	(14)", "2017	Molde 2	4	(2)","2016–2017	Bryne	16	(0)","2015–2016	Bryne 2	14	(18)"]
+```python 
+def player(player_name):
+
+    
+    if player_name == "haaland" or "Haaland":
+        Haaland_info = ["2015–2016	Bryne 2	                     14	             18", 
+        "2016–2017	Bryne                        16               0", 
+        "2017	        Molde 2	                      4               2",
+        "2017–2019	Molde                        39              14",
+        "2019–2020	Red Bull Salzburg            16              17",
+        "2020–2022	Borussia Dortmund            67              62","2022–	        Manchester City	              0	              0"]
+    
+    while len(Haaland_info) > 0:
+        print(Haaland_info.pop())
+        
+
+name= input("What player's history would you like to know more about?: ")    
+
+if name == "Haaland" or "haaland":
+
+    print("Year                  Team            League appearances    Goals")
+    player(name)
+
+
 
 ```
 
