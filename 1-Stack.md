@@ -67,3 +67,10 @@ Year                  Team            League Appearances    Goals
 
 
 ## Problem to Solve
+Your Grand Father needs a new smartphone but doesn't know which ones have come out in the past three years. He would like to buy a new smartphone, but before he would like to do some research to see which one suits better him. He has heard that Samsung Galaxy and iPhone are excellent options. To help your Grand Father, implement a solution using Stacks. 
+
+Your code should include the following:
+* Create two empty stacks, one for Samsung Galaxy and the other one for iPhone.
+* Push each model to its corresponding stack. Your top smartphone should be the most recent model. 
+* Give your Grand Father the option to choose between the two, then display the result.
+ 
