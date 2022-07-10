@@ -3,7 +3,7 @@ Hi there! This is a tutorial that will help you to learn more about data structu
 3 data structures: Stack, Sets, and Tree. In each data structure, I will give an explanation of what they are and how they work. Further, I will give an example where you can learn more about the data structure. Finally, I will give you a problem where you will put in practice what you just read. I will provide you a link for the solution where you can compare your solution with mine
 
 ## Links to modules
-* If you want to learn about Stack, please follow this link: [Stacks](1-Stacks.md)
+* If you want to learn about Stack, please follow this link: [Stacks](1-Stack.md)
 * If you want to learn about Sets, please follow this link: [Sets](2-Sets.md)
 * If you want to learn about Tree, please follow this link:
 
