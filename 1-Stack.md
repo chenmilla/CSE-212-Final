@@ -1,17 +1,18 @@
 # Stack
 
 ## Introduction
-Have you been in the supermarket doing your groceries and decided to buy bread to make the most famous college meal. I am not talking about Maruchan Ramen Noodles Soup. I am talking about the peanut butter sandwich. However, someone has put the bread on the shelves for you. You grab the one that is in front of you.  
+Have you been in the supermarket doing your groceries and bought bread to make the most famous college meal? By college meal, I don't mean Maruchan Ramen Noodles Soup. I am talking about the peanut butter sandwich. However, someone has put that bread loaf on the shelves for you. You grabbed the one that is in front of you and the bread loaf that was behind it, now becomes the first one on the shelve. This system is best known as LIFO (Last In First Out). This is exactly how Stacks work.      
 
   
 
 ## Characteristics of Stacks
 ![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Stack-sv.svg.png)
 
-* Stacks are linear data structre, which means its Big O notaion is O(1). 
+* Stacks are linear data structre, which means its Big O notaion is O(n). 
 * Stacks are similar to list since it stores data in an order. 
 * Stacks follows LIFO (Last In First Out) data structure, meaning you can only add or delete an element at the top.
-
+* Stacks are good at reversing things.
+* Stacks are excellent implementation for backtracking. For example, when you press *Ctrl + Z* to reverse something that went wrong while typing, you are using stacks. 
 
 ## Common Stack Operations
 In Python, a list can be used to implement a stack. To **push** an iteam to the top of a stack, we can use the Python’s built-in **append** function. To **pop** and remove the topmost iteam of the stack, we implement **pop** function. Also, if we would like to know the length of our stack, we can implement the Python's built-in **len** function. 
