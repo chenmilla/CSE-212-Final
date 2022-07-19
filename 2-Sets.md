@@ -85,9 +85,9 @@ Your school wants to create an app to help students with dating. To see if stude
 
 Your code should include the following:
 * At least 4 participants
-* Ask the participants about their interests.
+* Implement your solution without using Python built-in function *intersection*
 * Display if they are a great match or not.
 
-You can check your code with the solution here:[Solution](datingApp.py)
+You can check your code with the solution here: [Solution](datingApp.py)
  
 [Back to Welcome Page](0-welcome.md)
