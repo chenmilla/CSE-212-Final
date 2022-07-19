@@ -1,5 +1,3 @@
-```python
-
 def phone(selection):
     
     if selection == "samsung":
@@ -50,7 +48,6 @@ while True:
     else:
         break
         
-```
 
 
     
