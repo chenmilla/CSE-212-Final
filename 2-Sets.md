@@ -47,13 +47,13 @@ In this case, it will stay at the same index, but it will link a list to that in
 **NOTE:** By dealing with conflicts, our O(1) performance may approach O(n) if conflict is high. We can avoid this by incrementing the size of our list.   
 
 ## Common Sets Operations
-In Python, a list can be used to implement a stack. To **push** an iteam to the top of a stack, we can use the Python’s built-in **append** function. To **pop** and remove the topmost iteam of the stack, we implement **pop** function. Also, if we would like to know the length of our stack, we can implement the Python's built-in **len** function. 
+In Python, a set can be implemented using curly braces. Example: **my_set = {5,7,9}.** To create an empty set, we use the following code: **empty_set = set().** The **in** operator can be used to see if an iteam exist within a set.
 | Common Stack Operation | Description | Python Code | Big-O Notation |
 | ---------------------- | ----------- | ----------- | -------------- |
-| push(v)                | Inserts the value "v" to the top of the stack | **my_stack.append(v)** | O(1) |
-| pop() | Deletes and returns the topmost element of the stack | **value = my_stack.pop()** | O(1) |
-| size() | Returns the size of the stack | **length = len(my_stack)** | O(1) |
-| empty() | Returns TRUE if the stack is empty | **if len(my_stack) ==0:** | O(1) |
+| add(value)	                | 	Adds "value" to the set | **my_set.add(v)** | O(1) - Performance of hashing the value (assuming good conflict resolution) |
+| member(value)	 | Determines if "value" is in the set	 | **if value in my_set:** | O(1) - Performance of hashing the value (assuming good conflict resolution) |
+| member(value)	 | Determines if "value" is in the set | **if value in my_set:** | O(1) - Performance of hashing the value (assuming good conflict resolution) |
+| size()	 | Returns the number of items in the set | **length = len(my_set)** | O(1) |
 
 
 ## Example
