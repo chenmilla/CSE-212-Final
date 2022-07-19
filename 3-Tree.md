@@ -39,10 +39,13 @@ The tree is not a tree anymore, instead it looks more like a linked list.
 
 * When we have a unbalanced tree, we have **O(n).**
 ## Balanced Binary Search Trees
+The height of a tree is determined by the count of the max number of nodes between the root and the leaves. A balanced tree is said to be if the difference in heights within a subtree don't exceed 2.
 
 ![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Balanced%20AVL%20Tree.png)
 
 **Unbalanced AVL Tree after Adding Node**
+An unbalanced tree does not necessary need to look exactly like list. For example, lets say we would like to add 12 in the tree. By following the rules explained above, number 12 will be positioned to the right of node 11. Since the height of 12 exceeds 2 within the subtree, the tree is unbalanced
+
 ![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Unbalanced%20AVL%20Tree%20after%20Adding%20Node.png)
 
 **Rebalanced AVL Tree**
