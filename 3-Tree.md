@@ -1,12 +1,12 @@
 
-# Stack
+# Tree
 
 ## Introduction
 Have you been in the supermarket doing your groceries and bought bread to make the most famous college meal? By college meal, I don't mean Maruchan Ramen Noodles Soup. I am talking about the peanut butter sandwich. However, someone has put that bread loaf on the shelves for you. You grabbed the one that is in front of you and the bread loaf that was behind it, now becomes the first one on the shelve. This system is best known as LIFO (Last In First Out). This is exactly how Stacks work.      
 
   
 
-## Characteristics of Stacks
+## Binary Trees
 ![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Stack-sv.svg.png)
 
 * Stacks are linear data structre, which means its Big O notaion is O(n). 
@@ -15,7 +15,14 @@ Have you been in the supermarket doing your groceries and bought bread to make t
 * Stacks are good at reversing things.
 * Stacks are excellent implementation for backtracking. For example, when you press *Ctrl + Z* to reverse something that went wrong while typing, you are using stacks. 
 
-## Common Stack Operations
+## Binary Search
+
+## Balanced Binary Search Trees
+
+## Inserting into a BST
+
+
+## Traversing a BST
 In Python, a list can be used to implement a stack. To **push** an iteam to the top of a stack, we can use the Python’s built-in **append** function. To **pop** and remove the topmost iteam of the stack, we implement **pop** function. Also, if we would like to know the length of our stack, we can implement the Python's built-in **len** function. 
 | Common Stack Operation | Description | Python Code | Big-O Notation |
 | ---------------------- | ----------- | ----------- | -------------- |
