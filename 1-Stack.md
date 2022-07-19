@@ -70,7 +70,7 @@ Year                  Team            League Appearances    Goals
 Your Grand Father needs a new smartphone but doesn't know which ones have come out in the past three years. He would like to buy a new smartphone, but before he would like to do some research to see which one suits better him. He has heard that Samsung Galaxy and iPhone are excellent options. To help your Grand Father, implement a solution using Stacks. 
 
 Use the following table as a guide:
-[This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Samsung_iPhone_table.JPG)
+![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Samsung_iPhone_table.JPG)
 
 
 
