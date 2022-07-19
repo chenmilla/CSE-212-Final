@@ -49,6 +49,8 @@ An unbalanced tree does not necessary need to look exactly like list. For exampl
 ![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Unbalanced%20AVL%20Tree%20after%20Adding%20Node.png)
 
 **Rebalanced AVL Tree**
+To make balance our previous example, we would have to performe a node rotation. For example, we rotate nodes 10, 11, and 12. Since 11 is between 10 and 12, 11 will become the parent of 10 and 12. By doing this, the tree becomes balanced again, and we take advantage of O(log n).
+
 ![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Rebalanced%20AVL%20Tree.png)
 
 ## BST Operations
