@@ -7,13 +7,16 @@ The planet where we live is best known as earth. It is estimated to be 4.543 bil
   
 
 ## Characteristics of Sets
-![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Stack-sv.svg.png)
+![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/640px-PolygonsSetIntersection.svg.png)
 
-* Stacks are linear data structre, which means its Big O notaion is O(n). 
-* Stacks are similar to list since it stores data in an order. 
-* Stacks follows LIFO (Last In First Out) data structure, meaning you can only add or delete an element at the top.
-* Stacks are good at reversing things.
-* Stacks are excellent implementation for backtracking. For example, when you press *Ctrl + Z* to reverse something that went wrong while typing, you are using stacks. 
+* The average time for doing various operations on sets is O(1) 
+* Sets are good for avoiding duplicates. 
+* Sets don't care about order like lists, stacks and queues.
+* Sets are good for finding unique values.
+
+## Hashing 
+Since 
+
 
 ## Common Sets Operations
 In Python, a list can be used to implement a stack. To **push** an iteam to the top of a stack, we can use the Python’s built-in **append** function. To **pop** and remove the topmost iteam of the stack, we implement **pop** function. Also, if we would like to know the length of our stack, we can implement the Python's built-in **len** function. 
