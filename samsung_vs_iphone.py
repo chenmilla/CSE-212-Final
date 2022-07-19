@@ -17,23 +17,28 @@ def phone(selection):
         samsung.append("Samsung Galaxy S22+,          2022")
         samsung.append("Samsung Galaxy S22 Ultra,     2022")
 
+
+
+        print("      Model      " "         Release year     ")
         while len(samsung) > 0:
+            
             print(samsung.pop())
 
   
     if selection == "iphone":
         iphone =[]
-        iphone.append("iPhone 11,            2019")
-        iphone.append("iPhone 11 Pro,        2019")
-        iphone.append("iPhone 11 Pro Max,    2019")
-        iphone.append("iPhone 12,            2020")
-        iphone.append("iPhone 12 Mini,       2020")
-        iphone.append("iPhone 12 Pro Max,    2020")
-        iphone.append("iPhone 13,            2021")
-        iphone.append("iPhone 13 Mini,       2021")
-        iphone.append("iPhone 13 Pro,        2021")
-        iphone.append("iPhone 13 Pro Max,    2021")
+        iphone.append("iPhone 11,                  2019")
+        iphone.append("iPhone 11 Pro,              2019")
+        iphone.append("iPhone 11 Pro Max,          2019")
+        iphone.append("iPhone 12,                  2020")
+        iphone.append("iPhone 12 Mini,             2020")
+        iphone.append("iPhone 12 Pro Max,          2020")
+        iphone.append("iPhone 13,                  2021")
+        iphone.append("iPhone 13 Mini,             2021")
+        iphone.append("iPhone 13 Pro,              2021")
+        iphone.append("iPhone 13 Pro Max,          2021")
 
+        print("      Model      " "       Release year     ")
         while len(iphone) > 0:
             print(iphone.pop())
     
@@ -43,10 +48,12 @@ while True:
     phone(user_selection.lower())
 
     question = input("would you like to choose again? [Y/N] ")
-    if question == "Y":
+    if question.lower() == "y":
         None
     else:
         break
+
+
         
 
 
