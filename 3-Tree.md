@@ -2,27 +2,45 @@
 # Tree
 
 ## Introduction
-Have you been in the supermarket doing your groceries and bought bread to make the most famous college meal? By college meal, I don't mean Maruchan Ramen Noodles Soup. I am talking about the peanut butter sandwich. However, someone has put that bread loaf on the shelves for you. You grabbed the one that is in front of you and the bread loaf that was behind it, now becomes the first one on the shelve. This system is best known as LIFO (Last In First Out). This is exactly how Stacks work.      
+When I was a kid, I did not have a play station or a computer where I could play video games. Also, I did not have Cable T.V. so, so I used to spend most of my free time playing with my friend outdoors. I remember once we were pretending to have a tree house. As I was climbing a tree, one of its branches hit my eye, but I did not notice it until a friend told me that I had blood on my face. After looking at myself in a side mirror of a car, I got super scared since I did not know if I have lost my eye or how deep the injury was. My mom took me to the hospital where they aided me. I had a successful recovery and nothing serious happened to me. However, we are not talking about these kinds of trees.       
 
+![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Binary%20Tree.png)
   
 
-## Binary Trees
-![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Stack-sv.svg.png)
+## Binary Search Trees
 
-* Stacks are linear data structre, which means its Big O notaion is O(n). 
-* Stacks are similar to list since it stores data in an order. 
-* Stacks follows LIFO (Last In First Out) data structure, meaning you can only add or delete an element at the top.
-* Stacks are good at reversing things.
-* Stacks are excellent implementation for backtracking. For example, when you press *Ctrl + Z* to reverse something that went wrong while typing, you are using stacks. 
+![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Binary%20Tree%20search.png)
 
-## Binary Search
+
+**Add Node to BST**
+
+![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Add%20Node%20to%20BST.png)
+
+
+**Unbalanced BST**
+
+![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Unbalanced%20BST.png)
 
 ## Balanced Binary Search Trees
 
-## Inserting into a BST
+![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Balanced%20AVL%20Tree.png)
+
+**Unbalanced AVL Tree after Adding Node**
+![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Unbalanced%20AVL%20Tree%20after%20Adding%20Node.png)
+
+**Rebalanced AVL Tree**
+![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Rebalanced%20AVL%20Tree.png)
+
+## BST Operations
+
+### INSERTING INTO A BST
 
 
-## Traversing a BST
+
+
+### TRAVERSING A BST
+
+## BST IN PYTHON
 In Python, a list can be used to implement a stack. To **push** an iteam to the top of a stack, we can use the Python’s built-in **append** function. To **pop** and remove the topmost iteam of the stack, we implement **pop** function. Also, if we would like to know the length of our stack, we can implement the Python's built-in **len** function. 
 | Common Stack Operation | Description | Python Code | Big-O Notation |
 | ---------------------- | ----------- | ----------- | -------------- |
