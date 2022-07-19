@@ -5,17 +5,15 @@
 ## II. Stack
 * Introduction
 * Characteristics of stack
-* Push
-* Pop
+* Common Stack Operations
 * Example
 * Problem to Solve
 ## III. Sets
 * Introduction
 * Characteristics of sets
 * Hashing
-* How to create a Python set
-* How to add elements to a Python set
-* How to remove elemest from a Python set
+* Conflicts
+* Common Sets Operations
 * Example
 * Problem to Solve
 ## IV. Tree
