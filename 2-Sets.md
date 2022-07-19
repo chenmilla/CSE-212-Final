@@ -13,9 +13,24 @@ The planet where we live is best known as earth. It is estimated to be 4.543 bil
 * Sets are good for avoiding duplicates. 
 * Sets don't care about order like lists, stacks and queues.
 * Sets are good for finding unique values.
+* Sets are good for finding differences 
 
 ## Hashing 
-Since 
+It is the process of converting an input into a fixed-size number using an algorithm
+
+**index(n) = n**
+This formula helps to either add or lookup for data. N tell us the index where is stored or where is going to be stored. Example: 
+
+
+**index(n) = n % 10**
+This formula acomplish the same as formula index(n), but this one is helpful for bigger number. For example Lets say say we want to store the following number in a list 78499852, the index where this number is going to be store at is 2. What about 9982456? This number will be store in index number 6. If you notice, it is stored in index 5489126n, the last digit (n) of whatever number the data has been hashed to. The equation we just described can be generalized as follows: **index(n) = n % sparse_list_size**. 
+
+
+**index(n) = hash(n) % sparse_list_size**
+This equation is used for strings and floats. Hash(n) will convert non-integers into integers, and then it can acomplish the formulas explained above. 
+
+
+## Conflicts
 
 
 ## Common Sets Operations
