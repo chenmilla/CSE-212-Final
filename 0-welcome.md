@@ -5,7 +5,7 @@ Hi there! This is a tutorial that will help you to learn more about data structu
 ## Links to modules
 * If you want to learn about Stack, please follow this link: [Stack](1-Stack.md)
 * If you want to learn about Sets, please follow this link: [Sets](2-Sets.md)
-* If you want to learn about Tree, please follow this link:
+* If you want to learn about Tree, please follow this link: [Tree](3-Tree.md)
 
 ## Information
 * Name: Juan Chen
