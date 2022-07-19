@@ -1,7 +1,8 @@
 # Sets
 
 ## Introduction
-      
+The planet where we live is best known as earth. It is estimated to be 4.543 billion years old. Many of us believe that the first people who lived on earth were Adan and Eve. Since then, human beings have procreated and filled the earth. As today, there are around 7.753 billion people living on earth. The probability of you having a DoppelgäNger (look-alike) is about one in 1 trillion according to a research done by the University of Adelaide. Even if you find a DoppelgäNger, still that person is not you. This is what Set is about: there are not duplicates.
+    
 
   
 
