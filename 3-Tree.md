@@ -24,9 +24,9 @@ Also known as BST. A BST is a binary tree and has rules when data is put into it
 
 **Add Node to BST**
 
-
 ![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Add%20Node%20to%20BST.png)
 
+Let's say we would like to insert the value 19 in the tree. First, it will compare to the value of the root. Since it is greater, if will go to the right. Then it will encounter with a new value where it will follow the same process. In this case, 25. Since 19 is less than 25, the new value will go to the left and check if there is an additional node to compare. In this case, there is not a node to compare, so the new value has found its place in the tree.
 
 **Unbalanced BST**
 
