@@ -2,17 +2,28 @@
 # Tree
 
 ## Introduction
-When I was a kid, I did not have a play station or a computer where I could play video games. Also, I did not have Cable T.V. so, so I used to spend most of my free time playing with my friend outdoors. I remember once we were pretending to have a tree house. As I was climbing a tree, one of its branches hit my eye, but I did not notice it until a friend told me that I had blood on my face. After looking at myself in a side mirror of a car, I got super scared since I did not know if I have lost my eye or how deep the injury was. My mom took me to the hospital where they aided me. I had a successful recovery and nothing serious happened to me. However, we are not talking about these kinds of trees.       
+When I was a kid, I did not have a play station or a computer where I could play video games. Also, I did not have Cable T.V. so, so I used to spend most of my free time playing with my friend outdoors. I remember once we were pretending to have a tree house. As I was climbing a tree, one of its branches hit my eye, but I did not notice it until a friend told me that I had blood on my face. After looking at myself in a side mirror of a car, I got super scared since I did not know if I have lost my eye or how deep the injury was. My mom took me to the hospital where they aided me. I had a successful recovery and nothing serious happened to me. However, we are not talking about these kinds of trees. Instead, we are talking about Binary Trees. 
+
+**Binary Trees**
 
 ![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Binary%20Tree.png)
+
+* Binary trees cannot link to no more than two other nodes.
+* The top node is called **root** node.
+* A node that is not associated to other node is known as **leaf** node.
+* A node that has attached nodes is a **parent** node.
+* The node attached to a parent node are **child** nodes.
+* A **subtree** are the nodes to the left and right of any parent node form a subtree.
   
 
 ## Binary Search Trees
+Also known as BST. A BST is a binary tree and has rules when data is put into it. The way data is placed is by comparing the data with the parent node. If new node is less than parent node, then it is put in the left. If the new node is greater than parent node, then is placed in the right. By following these rules, the data is placed in the tree sorted.
 
 ![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Binary%20Tree%20search.png)
 
 
 **Add Node to BST**
+
 
 ![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Add%20Node%20to%20BST.png)
 
