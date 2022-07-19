@@ -33,7 +33,7 @@ Let's say we would like to insert the value 19 in the tree. First, it will compa
 **Unbalanced BST**
 In the past example, the tree was balanced since the root node had a value of 14. What about if we add the values in ascending order, this is: 2-5-11-18-30-33-34. 
 
-![This is an image]
+![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Unbalanced.png)
 
 The tree is not a tree anymore, instead it looks more like a linked list. 
 
