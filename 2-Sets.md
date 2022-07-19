@@ -55,46 +55,28 @@ In Python, a set can be implemented using curly braces. Example: **my_set = {5,7
 | member(value)	 | Determines if "value" is in the set | **if value in my_set:** | O(1) - Performance of hashing the value (assuming good conflict resolution) |
 | size()	 | Returns the number of items in the set | **length = len(my_set)** | O(1) |
 
+Intersection and union between two sets can be done as following in Python:
+![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Intersection_Union.JPG)
 
 ## Example
-Let's say you are a huge fan of soccer, which I am, and you just read a notification on your phone saying that your favorite team has signed a new player. However, you don't know anything about this player and you would like to know the history of this player, where he has played, stats, etc, we can implement Stacks to do this easily.
+Let's say you will like to match TV shows that you have in common with your family:
 
 ```python 
-def player(player_name):
 
-    
-    if player_name == "haaland" or "Haaland":
-        Haaland_info = ["2015–2016	Bryne 2	                     14	             18", 
-        "2016–2017	Bryne                        16               0", 
-        "2017	        Molde 2	                      4               2",
-        "2017–2019	Molde                        39              14",
-        "2019–2020	Red Bull Salzburg            16              17",
-        "2020–2022	Borussia Dortmund            67              62","2022–	        Manchester City	              0	              0"]
-    
-    while len(Haaland_info) > 0:
-        print(Haaland_info.pop())
-        
+Elisa = {"Breaking bad", "Better Call Saul", "The Office", "Money Heist", "More Girls", "Love is Blind", "Gilmore girls" }
+Juanfer ={"Breaking bad", "Better Call Saul", "The Office", "Narcos", "Prison Break", "Ozark", "Survivor", "The last dance", "Luis Miguel"}
+Jorge ={"Breaking bad", "Club de Cuervos", "Flash", "Stranger Things", "Cobra Kai", "Better Call Saul", "Maradona", "Ronaldo","The Office"}
 
-name= input("What player's history would you like to know more about?: ")    
-
-if name == "Haaland" or "haaland":
-
-    print("Year                  Team            League appearances    Goals")
-    player(name)
+set_A = Elisa.intersection(Juanfer) 
+set_B = set_A.intersection(Jorge) 
+print(set_B)
 
 
 
 ```
 The following code will give the following result:
 ```
-Year                  Team            League Appearances    Goals
-2022–           Manchester City               0               0
-2020–2022       Borussia Dortmund            67              62
-2019–2020       Red Bull Salzburg            16              17
-2017–2019       Molde                        39              14
-2017            Molde 2                       4               2
-2016–2017       Bryne                        16               0
-2015–2016       Bryne 2                      14              18
+{'Breaking bad', 'The Office', 'Better Call Saul'}
 ```
 
 
