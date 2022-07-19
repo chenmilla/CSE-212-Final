@@ -28,10 +28,16 @@ Also known as BST. A BST is a binary tree and has rules when data is put into it
 
 Let's say we would like to insert the value 19 in the tree. First, it will compare to the value of the root. Since it is greater, if will go to the right. Then it will encounter with a new value where it will follow the same process. In this case, 25. Since 19 is less than 25, the new value will go to the left and check if there is an additional node to compare. In this case, there is not a node to compare, so the new value has found its place in the tree.
 
+* When we have a balanced tree, we have **O(log n).**
+
 **Unbalanced BST**
+In the past example, the tree was balanced since the root node had a value of 14. What about if we add the values in ascending order, this is: 2-5-11-18-30-33-34. 
 
 ![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Unbalanced%20BST.png)
 
+The tree is not a tree anymore, instead it looks more like a linked list. 
+
+* When we have a unbalanced tree, we have **O(n).**
 ## Balanced Binary Search Trees
 
 ![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Balanced%20AVL%20Tree.png)
