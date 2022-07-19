@@ -53,15 +53,6 @@ To make balance our previous example, we would have to performe a node rotation.
 
 ![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/Rebalanced%20AVL%20Tree.png)
 
-## BST Operations
-
-### INSERTING INTO A BST
-
-
-
-
-### TRAVERSING A BST
-
 ## BST IN PYTHON
  
 | Common Stack Operation | Description | Big-O Notation |
