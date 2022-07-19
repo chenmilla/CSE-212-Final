@@ -44,7 +44,8 @@ When I was a kid, I did not have a play station or a computer where I could play
  
 | Common Stack Operation | Description | Big-O Notation |
 | ---------------------- | ----------- | -------------- |
-| insert(v)                | Inserts the value "v" into the tree |  | O(log n) |
+| insert(v)              | Inserts the value "v" into the tree |  O(log n) |
+| remove(v)              | Remove the value "v" from the tree. |  O(log n) |
 | contains(v) | 	Determine if a value is in the tree. | O(log n) |
 | traverse_forward | Visit all objects from smallest to largest. | O(n)) |
 | traverse_reverse | Visit all objects from largest to smallest. | O(n) |
