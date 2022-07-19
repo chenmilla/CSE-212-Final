@@ -20,18 +20,31 @@ It is the process of converting an input into a fixed-size number using an algor
 
 **index(n) = n**
 This formula helps to either add or lookup for data. N tell us the index where is stored or where is going to be stored. Example: 
-
+![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/index(n)_n.png)
 
 **index(n) = n % 10**
 This formula acomplish the same as formula index(n), but this one is helpful for bigger number. For example Lets say say we want to store the following number in a list 78499852, the index where this number is going to be store at is 2. What about 9982456? This number will be store in index number 6. If you notice, it is stored in index 5489126n, the last digit (n) of whatever number the data has been hashed to. The equation we just described can be generalized as follows: **index(n) = n % sparse_list_size**. 
-
+![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/index(n)_n%2510.png)
 
 **index(n) = hash(n) % sparse_list_size**
-This equation is used for strings and floats. Hash(n) will convert non-integers into integers, and then it can acomplish the formulas explained above. 
+This equation is used for strings and floats. Hash(n) will convert non-integers into integers, and then it can acomplish the formulas explained above.
 
+![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/hash_examples..JPG)
+
+**NOTE** Not everything can be hashed. For example, in the above picture, you can notice that lists in Python cannot be hashed.
 
 ## Conflicts
+Conflicts can occur when we are storing data in the same index. We can solve this with either open addressing or chaining.
 
+**Open addressing**
+This is when looks for the next index avaible. It can be implemented in different ways, but one of the most common is to look to the right one spot at a time until it finds an empty index. 
+![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/open_addressing.png)
+
+**Chaining**
+In this case, it will stay at the same index, but it will link a list to that index. By doing this, many values can be stored to its corresponding index. 
+![This is an image](https://github.com/chenmilla/CSE-212-Final/blob/main/images/chaining.png)
+
+**NOTE:** By dealing with conflicts, our O(1) performance may approach O(n) if conflict is high. We can avoid this by incrementing the size of our list.   
 
 ## Common Sets Operations
 In Python, a list can be used to implement a stack. To **push** an iteam to the top of a stack, we can use the Python’s built-in **append** function. To **pop** and remove the topmost iteam of the stack, we implement **pop** function. Also, if we would like to know the length of our stack, we can implement the Python's built-in **len** function. 
