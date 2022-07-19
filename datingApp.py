@@ -21,6 +21,7 @@ Renata = {"Sushi","Mountain Bike", "Soccer", "Ballet", "Church activities", "Dan
 print("Results for Luisca and Renata: ")
 things_in_common(Luisca,Renata)
 print("")
+
 #Couple 2
 Theo = {"Naruto", "Video Games", "Programming", "IT", "Dragon Ball Z", "Camping", "Chess", "In-and-out","Computers"}
 Lizzy = {"Netflix", "Spa", "Tennis", "Camping", "Gym", "Pasta", "Books", "Painting", "Community Service", "Institute", "FHE Group"}
